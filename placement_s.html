@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Placements</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=medium, initial-scale=0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+        <style>
+            * {
+        box-sizing: border-box;
+                
+            }
+            .header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+            ul{
+                display: flex;
+            }
+            ul li{
+                list-style-type: none;
+                width:405px;
+            }
+            ul li a{
+                color:white;
+                text-decoration: none;
+            }
+            ul li a:hover{
+                background-color: grey;
+                padding:21px;
+                
+            }
+            h3.sty
+    {
+    
+      font-family:"Times New Roman", fantasy;
+    font-weight:bolder;
+    color:crimson;
+    text-align:center;
+    font-size:5vh;
+    text-shadow:2px 2px 2px pink;
+    font-variant:normal;
+  
+    }
+    h3.styl
+    {
+        font-family:"Times New Roman", fantasy;
+    font-weight:bolder;
+    color:deeppink;
+    text-align:center;
+    font-size:5vh;
+    font-variant:normal;
+    }
+            .logo{
+            height:30px;
+            width:40px;
+                
+            }
+            .reg{
+                width:90%;
+                height:550px;
+                background-color:white;
+                border:2px solid black;
+                box-shadow: 5px 5px;
+                margin:30px;
+                float:left;
+            }
+            .reg:hover{
+                box-shadow: 0 0 20px red;
+            }
+            @media screen and (min-width:700px){
+                .reg{
+                    float:left;
+                    width:45%;
+                    height:550px;
+                    background-color: white;
+                    
+                }
+            }
+            .txt{
+                max-width: 500px;
+                padding:35px;
+                margin:auto;
+                
+            }
+            .in_reg{
+                width:100%;
+                padding:10px;
+                outline:none;
+                border: none;
+                border-bottom: 2px solid black;
+                font-size:16px;
+            }
+        
+            .btn_reg{
+                border:none;
+                width:26%;
+                height:39px;
+                margin-left:150px;
+                outline: none;
+                background-color:darkorange; 
+                border-radius:7px;
+            }
+           
+            .opi{
+                width:100%;
+                height:115px;
+                outline: none;
+                word-wrap:normal;
+            }
+            .inf{
+                width:49%;
+                height:30px;
+                margin:1px;
+                outline:none;
+            }
+            .box
+            {  display: table;
+                float:left;
+                height:150px;
+                width:200px;
+                background-color: burlywood;
+                border-radius: 4px;
+                margin:9px;
+            
+            }
+            
+            
+        </style>
+    </head>
+    <body style="background-color: gainsboro">
+        <div style="background-color: black;padding:5px;color:white;text-align: center">
+            
+            <ul>
+                <img src="https://serving.photos.photobox.com/779682804df1aa531c26b3b4600997d0c8ac9b68038e79f1f9af30985260546b455d8b8e.jpg" class="logo">
+
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="homepage.html">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="facility.html">Facility</a></li>
+                <li><a href="R%20and%20d.html">R & D</a></li>
+                <li><a href="placement_s.html">Placement</a></li>
+                <li><a href="homepage.html">Enquiry</a></li>
+            </ul>
+        </div>
+        <br>
+        <div style="background-color: white;padding:5px;color:black;text-align: center;border-radius: 7px">
+            <h1 style="font-size: 35px">Leena Institute</h1>
+            <p style="font-size: 20px">"Develop Excellent Skills and Specialization in Candidates"</p>
+        </div>
+        <br>
+        <div class="w3-center w3-padding-50">
+      <span class="w3-xlarge w3-bottombar w3-border-white  w3-padding-16"><br>Placement<br><br></span>
+    </div>
+        <br>
+        <div style="background-color: white;padding:6px;color:black;text-align: center;border-radius: 7px">
+            <!--<h1 Style="font-size:30px;"><b>R & D</b></h1>-->
+            <div Style="background-color: black;padding:200px;color:white;border-radius: 7px;width: 250% ">
+            <div class="box">
+        <p>hii...</p>
+            
+        </div>
+                <div class="box">
+        <p>hii...</p>
+            
+        </div>
+                <div class="box">
+        <p>hii...</p>
+            
+        </div>
+                <div class="box">
+        <p>hii...</p>
+            
+        </div>
+            </div>
+        </div>
+        
+       <script>
+$(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 500) {
+            $(".header").addClass('smaller');
+        } else {
+            $(".header").removeClass("smaller");
+        }
+    });
+});
+</script>
+
+           
+    </body>
+</html>
